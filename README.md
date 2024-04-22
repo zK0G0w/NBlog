@@ -19,7 +19,7 @@
 
 Spring Boot + Vue「前后端分离，人不分离」博客系统
 
-Fork自Naccl的NBlog仓库，用于研究学习
+Fork自[@Naccl](https://github.com/Naccl)的[NBlog](https://github.com/Naccl/NBlog)仓库，用于研究学习
 
 预览地址：
 
