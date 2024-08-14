@@ -7,7 +7,7 @@ import top.naccl.util.common.SpringContextUtils;
  * 文件上传方式
  *
  * @author: Naccl
- * @date: 2022-01-23
+ * @date: 2024-01-23
  */
 public class ChannelFactory {
 	/**

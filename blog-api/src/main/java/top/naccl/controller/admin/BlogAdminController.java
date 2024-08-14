@@ -220,7 +220,7 @@ public class BlogAdminController {
 		List<Object> tagList = blog.getTagList();
 		List<Tag> tags = new ArrayList<>();
 		for (Object t : tagList) {
-			if (t instanceof Integer) {//选择了已存在的标签
+			if (t instanceof Integer) {//选择了已存在的标签linux
 				Tag tag = tagService.getTagById(((Integer) t).longValue());
 				tags.add(tag);
 			} else if (t instanceof String) {//添加新标签

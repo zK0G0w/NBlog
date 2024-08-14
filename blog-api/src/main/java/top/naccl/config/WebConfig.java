@@ -20,7 +20,6 @@ public class WebConfig implements WebMvcConfigurer {
 	AccessLimitInterceptor accessLimitInterceptor;
 	@Autowired
 	UploadProperties uploadProperties;
-
 	/**
 	 * 跨域请求
 	 *
