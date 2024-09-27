@@ -28,6 +28,8 @@ public class ControllerExceptionHandler {
 	 * @param e       自定义抛出的异常信息
 	 * @return
 	 */
+	
+
 	@ExceptionHandler(NotFoundException.class)
 	public Result notFoundExceptionHandler(HttpServletRequest request, NotFoundException e) {
 		logger.error("Request URL : {}, Exception :", request.getRequestURL(), e);
