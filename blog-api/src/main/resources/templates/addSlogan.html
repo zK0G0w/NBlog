@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>来一句</title>
+</head>
+<body>
+    <h1>来一句呗</h1>
+
+    <!-- 表单提交内容到 /LinuxDo/v1/add -->
+    <form th:action="@{/LinuxDo/v1/addslogan}" method="post">
+        <label for="content">Slogan:</label>
+        <input type="text" id="content" name="content" required />
+        <button type="submit">整！</button>
+    </form>
+
+    <div th:if="${message}" style="color: green;">
+        <p th:text="${message}"></p>
+    </div>
+
+    <div th:if="${error}" style="color: red;">
+        <p th:text="${error}"></p>
+    </div>
+</body>
+</html>

@@ -1,18 +1,18 @@
-#!/bin/bash
-# Author: Naccl
+#!/bin/zsh
+# Author: zkogow
 #
 # This script is used to deploy NBlog to my server, apply my changes
 # on the "prod" branch for myself.
 # I didn't upload "prod" branch because it has my own configuration,
 # so you may not be able to use it.
 
-project_local_path=~/work/idea-project/NBlog
-dev_branch=master
-prod_branch=prod
-server=aliyun
-api_path=/home/nblog/api
-cms_path=/home/nblog/cms
-view_path=/home/nblog/view
+project_local_path=~/WorkSpace/NBlog
+dev_branch=dev
+prod_branch=main
+server=aliyun-ecs01
+api_path=/home/NBlog/api
+cms_path=/home/NBlog/cms
+view_path=/home/NBlog/view
 
 
 function echo_msg()

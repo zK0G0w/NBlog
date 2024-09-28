@@ -150,7 +150,7 @@ public class BlogServiceImpl implements BlogService {
 			 * 这里如果出现异常，通常是手动修改过 MySQL 而没有通过后台管理，导致 Redis 和 MySQL 不同步
 			 * 从 Redis 中查出了 null，强转 int 时出现 NullPointerException
 			 * 直接抛出异常比带着 bug 继续跑要好得多
-			 *
+			 *ƒ
 			 * 解决步骤：
 			 * 1.结束程序
 			 * 2.删除 Redis DB 中 blogViewsMap 这个 key（或者直接清空对应的整个 DB）
