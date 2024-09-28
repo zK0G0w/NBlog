@@ -4,7 +4,7 @@ import 'nprogress/nprogress.css'
 
 const request = axios.create({
 	//baseURL: 'http://39.105.155.95:8081/',
-	baseURL: 'http://api.zkogow.top/',
+	baseURL: 'https://api.zkogow.top/',
 	timeout: 10000,
 })
 

@@ -5,7 +5,7 @@ import {Message} from 'element-ui'
 
 const request = axios.create({
 	//baseURL: 'http://39.105.155.95:8081/admin/',
-	baseURL: 'http://api.zkogow.top/admin/',
+	baseURL: 'https://api.zkogow.top/admin/',
 	timeout: 5000
 })
 
